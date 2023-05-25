@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A530DD732A18CB60007D1A30 /* MainScreenVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A530DD722A18CB60007D1A30 /* MainScreenVM.swift */; };
+		A530DD752A18E14E007D1A30 /* pickAircraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = A530DD742A18E14E007D1A30 /* pickAircraft.swift */; };
+		A530DD772A18E1F3007D1A30 /* BodyTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A530DD762A18E1F3007D1A30 /* BodyTextStyle.swift */; };
+		A530DD7B2A19B05E007D1A30 /* MultipeerSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A530DD7A2A19B05E007D1A30 /* MultipeerSession.swift */; };
+		A530DD7F2A1A1A84007D1A30 /* GamePlayReal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A530DD7E2A1A1A84007D1A30 /* GamePlayReal.swift */; };
+		A530DD812A1A1DE5007D1A30 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A530DD802A1A1DE5007D1A30 /* GameScene.swift */; };
+		A5A5B71F2A15E21400893C76 /* SkyCraftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A5B71E2A15E21400893C76 /* SkyCraftApp.swift */; };
+		A5A5B7232A15E21500893C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A5B7222A15E21500893C76 /* Assets.xcassets */; };
+		A5A5B7262A15E21500893C76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A5B7252A15E21500893C76 /* Preview Assets.xcassets */; };
+		A5A5B72D2A15E24900893C76 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A5B72C2A15E24900893C76 /* MainScreen.swift */; };
+		A5A5B7302A15E2AA00893C76 /* Gameplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A5B72F2A15E2AA00893C76 /* Gameplay.swift */; };
+		A5A5B7332A15E2DA00893C76 /* Matchmaking.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A5B7322A15E2DA00893C76 /* Matchmaking.swift */; };
+		A5A5B7362A15E45500893C76 /* RoundedButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A5B7352A15E45500893C76 /* RoundedButtonStyle.swift */; };
+		A5A5B7422A15E54500893C76 /* Aircraft 1.svg in Resources */ = {isa = PBXBuildFile; fileRef = A5A5B7382A15E54500893C76 /* Aircraft 1.svg */; };
+		A5A5B7432A15E54500893C76 /* Aircraft 4.svg in Resources */ = {isa = PBXBuildFile; fileRef = A5A5B7392A15E54500893C76 /* Aircraft 4.svg */; };
+		A5A5B7442A15E54500893C76 /* gun.svg in Resources */ = {isa = PBXBuildFile; fileRef = A5A5B73A2A15E54500893C76 /* gun.svg */; };
+		A5A5B7452A15E54500893C76 /* Aircraft 3.svg in Resources */ = {isa = PBXBuildFile; fileRef = A5A5B73B2A15E54500893C76 /* Aircraft 3.svg */; };
+		A5A5B7462A15E54500893C76 /* Cannon.svg in Resources */ = {isa = PBXBuildFile; fileRef = A5A5B73C2A15E54500893C76 /* Cannon.svg */; };
+		A5A5B7472A15E54500893C76 /* Aircrafts in Resources */ = {isa = PBXBuildFile; fileRef = A5A5B73D2A15E54500893C76 /* Aircrafts */; };
+		A5A5B7482A15E54500893C76 /* Shells.svg in Resources */ = {isa = PBXBuildFile; fileRef = A5A5B73E2A15E54500893C76 /* Shells.svg */; };
+		A5A5B7492A15E54500893C76 /* Aircraft 2.svg in Resources */ = {isa = PBXBuildFile; fileRef = A5A5B73F2A15E54500893C76 /* Aircraft 2.svg */; };
+		A5A5B74A2A15E54500893C76 /* laser.svg in Resources */ = {isa = PBXBuildFile; fileRef = A5A5B7402A15E54500893C76 /* laser.svg */; };
+		A5A5B74B2A15E54500893C76 /* Bullets in Resources */ = {isa = PBXBuildFile; fileRef = A5A5B7412A15E54500893C76 /* Bullets */; };
+		A5A5B7502A1612BB00893C76 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A5B74F2A1612BB00893C76 /* Colors.swift */; };
+		A5A5B7582A1683F000893C76 /* VT323-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5A5B7572A1683F000893C76 /* VT323-Regular.ttf */; };
+		A5A5B75A2A1685A500893C76 /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A5B7592A1685A500893C76 /* TextFieldStyle.swift */; };
+		A5A5B75C2A1728EB00893C76 /* playerWeapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A5B75B2A1728EB00893C76 /* playerWeapon.swift */; };
+		A5A5B75F2A173EC100893C76 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A5B75E2A173EC100893C76 /* Player.swift */; };
+		A5A5B7622A186F0B00893C76 /* Garage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A5B7612A186F0B00893C76 /* Garage.swift */; };
+		A5DBC6522A1A24D700257E2E /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DBC6512A1A24D700257E2E /* Bullet.swift */; };
+		A5DBC6542A1A279600257E2E /* PlayerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DBC6532A1A279600257E2E /* PlayerHandler.swift */; };
+		A5DBC6562A1B0B5D00257E2E /* AircraftCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DBC6552A1B0B5D00257E2E /* AircraftCard.swift */; };
+		A5DBC6582A1B0F7100257E2E /* PickBlaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DBC6572A1B0F7100257E2E /* PickBlaster.swift */; };
+		A5DBC65B2A1CA2FE00257E2E /* testview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DBC65A2A1CA2FE00257E2E /* testview.swift */; };
+		A5DBC65D2A1CB13600257E2E /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DBC65C2A1CB13500257E2E /* GameData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A530DD722A18CB60007D1A30 /* MainScreenVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenVM.swift; sourceTree = "<group>"; };
+		A530DD742A18E14E007D1A30 /* pickAircraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pickAircraft.swift; sourceTree = "<group>"; };
+		A530DD762A18E1F3007D1A30 /* BodyTextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTextStyle.swift; sourceTree = "<group>"; };
+		A530DD7A2A19B05E007D1A30 /* MultipeerSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerSession.swift; sourceTree = "<group>"; };
+		A530DD7E2A1A1A84007D1A30 /* GamePlayReal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayReal.swift; sourceTree = "<group>"; };
+		A530DD802A1A1DE5007D1A30 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A5A5B71B2A15E21400893C76 /* SkyCraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyCraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A5B71E2A15E21400893C76 /* SkyCraftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyCraftApp.swift; sourceTree = "<group>"; };
+		A5A5B7222A15E21500893C76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5A5B7252A15E21500893C76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5A5B72C2A15E24900893C76 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		A5A5B72F2A15E2AA00893C76 /* Gameplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gameplay.swift; sourceTree = "<group>"; };
+		A5A5B7322A15E2DA00893C76 /* Matchmaking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matchmaking.swift; sourceTree = "<group>"; };
+		A5A5B7352A15E45500893C76 /* RoundedButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtonStyle.swift; sourceTree = "<group>"; };
+		A5A5B7382A15E54500893C76 /* Aircraft 1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Aircraft 1.svg"; sourceTree = "<group>"; };
+		A5A5B7392A15E54500893C76 /* Aircraft 4.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Aircraft 4.svg"; sourceTree = "<group>"; };
+		A5A5B73A2A15E54500893C76 /* gun.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gun.svg; sourceTree = "<group>"; };
+		A5A5B73B2A15E54500893C76 /* Aircraft 3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Aircraft 3.svg"; sourceTree = "<group>"; };
+		A5A5B73C2A15E54500893C76 /* Cannon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cannon.svg; sourceTree = "<group>"; };
+		A5A5B73D2A15E54500893C76 /* Aircrafts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Aircrafts; sourceTree = "<group>"; };
+		A5A5B73E2A15E54500893C76 /* Shells.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Shells.svg; sourceTree = "<group>"; };
+		A5A5B73F2A15E54500893C76 /* Aircraft 2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Aircraft 2.svg"; sourceTree = "<group>"; };
+		A5A5B7402A15E54500893C76 /* laser.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = laser.svg; sourceTree = "<group>"; };
+		A5A5B7412A15E54500893C76 /* Bullets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Bullets; sourceTree = "<group>"; };
+		A5A5B74F2A1612BB00893C76 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A5A5B7552A1615A600893C76 /* VT323-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VT323-Regular.ttf"; sourceTree = "<group>"; };
+		A5A5B7562A16164700893C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A5B7572A1683F000893C76 /* VT323-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "VT323-Regular.ttf"; path = "../../Assets/Fonts/VT323-Regular.ttf"; sourceTree = "<group>"; };
+		A5A5B7592A1685A500893C76 /* TextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
+		A5A5B75B2A1728EB00893C76 /* playerWeapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playerWeapon.swift; sourceTree = "<group>"; };
+		A5A5B75E2A173EC100893C76 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		A5A5B7612A186F0B00893C76 /* Garage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garage.swift; sourceTree = "<group>"; };
+		A5DBC6512A1A24D700257E2E /* Bullet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
+		A5DBC6532A1A279600257E2E /* PlayerHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerHandler.swift; sourceTree = "<group>"; };
+		A5DBC6552A1B0B5D00257E2E /* AircraftCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftCard.swift; sourceTree = "<group>"; };
+		A5DBC6572A1B0F7100257E2E /* PickBlaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickBlaster.swift; sourceTree = "<group>"; };
+		A5DBC65A2A1CA2FE00257E2E /* testview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testview.swift; sourceTree = "<group>"; };
+		A5DBC65C2A1CB13500257E2E /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5A5B7182A15E21400893C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A530DD782A19324D007D1A30 /* Aircrafts */ = {
+			isa = PBXGroup;
+			children = (
+				A530DD742A18E14E007D1A30 /* pickAircraft.swift */,
+				A5DBC6552A1B0B5D00257E2E /* AircraftCard.swift */,
+			);
+			path = Aircrafts;
+			sourceTree = "<group>";
+		};
+		A530DD792A19B047007D1A30 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A5DBC6532A1A279600257E2E /* PlayerHandler.swift */,
+				A530DD7A2A19B05E007D1A30 /* MultipeerSession.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A5A5B7122A15E21400893C76 = {
+			isa = PBXGroup;
+			children = (
+				A5A5B7372A15E45A00893C76 /* Core */,
+				A5A5B7342A15E2DF00893C76 /* Matchmaking */,
+				A5A5B7312A15E2AF00893C76 /* Gameplay */,
+				A5A5B72E2A15E24F00893C76 /* MainScreen */,
+				A5A5B7632A186F0F00893C76 /* Garage */,
+				A5A5B71D2A15E21400893C76 /* SkyCraft */,
+				A5A5B71C2A15E21400893C76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5A5B71C2A15E21400893C76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A5B71B2A15E21400893C76 /* SkyCraft.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A5B71D2A15E21400893C76 /* SkyCraft */ = {
+			isa = PBXGroup;
+			children = (
+				A5A5B7562A16164700893C76 /* Info.plist */,
+				A5A5B7552A1615A600893C76 /* VT323-Regular.ttf */,
+				A5A5B7572A1683F000893C76 /* VT323-Regular.ttf */,
+				A5A5B71E2A15E21400893C76 /* SkyCraftApp.swift */,
+				A5A5B7222A15E21500893C76 /* Assets.xcassets */,
+				A5A5B7242A15E21500893C76 /* Preview Content */,
+			);
+			path = SkyCraft;
+			sourceTree = "<group>";
+		};
+		A5A5B7242A15E21500893C76 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A5A5B7382A15E54500893C76 /* Aircraft 1.svg */,
+				A5A5B73F2A15E54500893C76 /* Aircraft 2.svg */,
+				A5A5B73B2A15E54500893C76 /* Aircraft 3.svg */,
+				A5A5B7392A15E54500893C76 /* Aircraft 4.svg */,
+				A5A5B73D2A15E54500893C76 /* Aircrafts */,
+				A5A5B7412A15E54500893C76 /* Bullets */,
+				A5A5B73C2A15E54500893C76 /* Cannon.svg */,
+				A5A5B73A2A15E54500893C76 /* gun.svg */,
+				A5A5B7402A15E54500893C76 /* laser.svg */,
+				A5A5B73E2A15E54500893C76 /* Shells.svg */,
+				A5A5B7252A15E21500893C76 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A5A5B72E2A15E24F00893C76 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A5A5B72C2A15E24900893C76 /* MainScreen.swift */,
+				A530DD722A18CB60007D1A30 /* MainScreenVM.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		A5A5B7312A15E2AF00893C76 /* Gameplay */ = {
+			isa = PBXGroup;
+			children = (
+				A5A5B7602A173EC800893C76 /* Object */,
+				A5A5B75B2A1728EB00893C76 /* playerWeapon.swift */,
+				A530DD802A1A1DE5007D1A30 /* GameScene.swift */,
+				A530DD7E2A1A1A84007D1A30 /* GamePlayReal.swift */,
+				A5DBC65C2A1CB13500257E2E /* GameData.swift */,
+				A5A5B72F2A15E2AA00893C76 /* Gameplay.swift */,
+			);
+			path = Gameplay;
+			sourceTree = "<group>";
+		};
+		A5A5B7342A15E2DF00893C76 /* Matchmaking */ = {
+			isa = PBXGroup;
+			children = (
+				A5A5B7322A15E2DA00893C76 /* Matchmaking.swift */,
+				A5DBC65A2A1CA2FE00257E2E /* testview.swift */,
+			);
+			path = Matchmaking;
+			sourceTree = "<group>";
+		};
+		A5A5B7372A15E45A00893C76 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A530DD792A19B047007D1A30 /* Utilities */,
+				A5A5B74E2A1612A100893C76 /* Themes */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A5A5B74D2A16129900893C76 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				A5A5B7352A15E45500893C76 /* RoundedButtonStyle.swift */,
+				A5A5B7592A1685A500893C76 /* TextFieldStyle.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		A5A5B74E2A1612A100893C76 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				A5A5B74D2A16129900893C76 /* Presenters */,
+				A5A5B7512A1613CC00893C76 /* Colors */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		A5A5B7512A1613CC00893C76 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				A530DD762A18E1F3007D1A30 /* BodyTextStyle.swift */,
+				A5A5B74F2A1612BB00893C76 /* Colors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		A5A5B7602A173EC800893C76 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				A5DBC6512A1A24D700257E2E /* Bullet.swift */,
+				A5A5B75E2A173EC100893C76 /* Player.swift */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		A5A5B7632A186F0F00893C76 /* Garage */ = {
+			isa = PBXGroup;
+			children = (
+				A5A5B7612A186F0B00893C76 /* Garage.swift */,
+				A530DD782A19324D007D1A30 /* Aircrafts */,
+				A5DBC6592A1B0F7500257E2E /* Blasters */,
+			);
+			path = Garage;
+			sourceTree = "<group>";
+		};
+		A5DBC6592A1B0F7500257E2E /* Blasters */ = {
+			isa = PBXGroup;
+			children = (
+				A5DBC6572A1B0F7100257E2E /* PickBlaster.swift */,
+			);
+			path = Blasters;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5A5B71A2A15E21400893C76 /* SkyCraft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A5B7292A15E21500893C76 /* Build configuration list for PBXNativeTarget "SkyCraft" */;
+			buildPhases = (
+				A5A5B7172A15E21400893C76 /* Sources */,
+				A5A5B7182A15E21400893C76 /* Frameworks */,
+				A5A5B7192A15E21400893C76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyCraft;
+			productName = SkyCraft;
+			productReference = A5A5B71B2A15E21400893C76 /* SkyCraft.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5A5B7132A15E21400893C76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A5A5B71A2A15E21400893C76 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = A5A5B7162A15E21400893C76 /* Build configuration list for PBXProject "SkyCraft" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5A5B7122A15E21400893C76;
+			productRefGroup = A5A5B71C2A15E21400893C76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5A5B71A2A15E21400893C76 /* SkyCraft */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5A5B7192A15E21400893C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A5B7472A15E54500893C76 /* Aircrafts in Resources */,
+				A5A5B7462A15E54500893C76 /* Cannon.svg in Resources */,
+				A5A5B7492A15E54500893C76 /* Aircraft 2.svg in Resources */,
+				A5A5B7582A1683F000893C76 /* VT323-Regular.ttf in Resources */,
+				A5A5B7432A15E54500893C76 /* Aircraft 4.svg in Resources */,
+				A5A5B7482A15E54500893C76 /* Shells.svg in Resources */,
+				A5A5B7452A15E54500893C76 /* Aircraft 3.svg in Resources */,
+				A5A5B74B2A15E54500893C76 /* Bullets in Resources */,
+				A5A5B7422A15E54500893C76 /* Aircraft 1.svg in Resources */,
+				A5A5B7442A15E54500893C76 /* gun.svg in Resources */,
+				A5A5B74A2A15E54500893C76 /* laser.svg in Resources */,
+				A5A5B7262A15E21500893C76 /* Preview Assets.xcassets in Resources */,
+				A5A5B7232A15E21500893C76 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5A5B7172A15E21400893C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A5B72D2A15E24900893C76 /* MainScreen.swift in Sources */,
+				A5A5B7622A186F0B00893C76 /* Garage.swift in Sources */,
+				A530DD732A18CB60007D1A30 /* MainScreenVM.swift in Sources */,
+				A5DBC65D2A1CB13600257E2E /* GameData.swift in Sources */,
+				A530DD752A18E14E007D1A30 /* pickAircraft.swift in Sources */,
+				A5A5B75A2A1685A500893C76 /* TextFieldStyle.swift in Sources */,
+				A5A5B7362A15E45500893C76 /* RoundedButtonStyle.swift in Sources */,
+				A530DD7B2A19B05E007D1A30 /* MultipeerSession.swift in Sources */,
+				A530DD772A18E1F3007D1A30 /* BodyTextStyle.swift in Sources */,
+				A5A5B7302A15E2AA00893C76 /* Gameplay.swift in Sources */,
+				A5A5B75C2A1728EB00893C76 /* playerWeapon.swift in Sources */,
+				A5DBC65B2A1CA2FE00257E2E /* testview.swift in Sources */,
+				A530DD7F2A1A1A84007D1A30 /* GamePlayReal.swift in Sources */,
+				A530DD812A1A1DE5007D1A30 /* GameScene.swift in Sources */,
+				A5DBC6542A1A279600257E2E /* PlayerHandler.swift in Sources */,
+				A5A5B7502A1612BB00893C76 /* Colors.swift in Sources */,
+				A5A5B7332A15E2DA00893C76 /* Matchmaking.swift in Sources */,
+				A5A5B75F2A173EC100893C76 /* Player.swift in Sources */,
+				A5A5B71F2A15E21400893C76 /* SkyCraftApp.swift in Sources */,
+				A5DBC6522A1A24D700257E2E /* Bullet.swift in Sources */,
+				A5DBC6562A1B0B5D00257E2E /* AircraftCard.swift in Sources */,
+				A5DBC6582A1B0F7100257E2E /* PickBlaster.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A5A5B7272A15E21500893C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5A5B7282A15E21500893C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5A5B72A2A15E21500893C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkyCraft/Preview Content\"";
+				DEVELOPMENT_TEAM = NQ6K7G8J8Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkyCraft/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Our app uses bluetooth to find, connect and transfer data between different devices";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Our app uses local network to find new player";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.manta.SkyCraft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5A5B72B2A15E21500893C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkyCraft/Preview Content\"";
+				DEVELOPMENT_TEAM = NQ6K7G8J8Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkyCraft/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Our app uses bluetooth to find, connect and transfer data between different devices";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Our app uses local network to find new player";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.manta.SkyCraft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5A5B7162A15E21400893C76 /* Build configuration list for PBXProject "SkyCraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A5B7272A15E21500893C76 /* Debug */,
+				A5A5B7282A15E21500893C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A5B7292A15E21500893C76 /* Build configuration list for PBXNativeTarget "SkyCraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A5B72A2A15E21500893C76 /* Debug */,
+				A5A5B72B2A15E21500893C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5A5B7132A15E21400893C76 /* Project object */;
+}
